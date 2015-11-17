@@ -35,6 +35,8 @@ rm() {
 }
 ])])])
 
+LIBS="$LIBS -lz"
+
 { # environment section
 
 AC_ARG_WITH(baseruby,
